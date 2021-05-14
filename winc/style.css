@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+
+
+body { 
+    color: red;
+}
+
+.header{
+    text-decoration: line-through;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.main{
+    border: 10px solid white;
+}
+
+.black-border{
+    border: 5px solid black;
+}
+
+#green-bg {
+    background-color: green;
+}
