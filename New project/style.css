@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction:inherit;
+    
+}
+
+header{
+    padding: 8px;
+    margin: 10px;
+}
+
+main{
+    margin: 0px 100px 0px 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+
+.dob{
+    display: flex;
+    flex-direction: row;
+}
