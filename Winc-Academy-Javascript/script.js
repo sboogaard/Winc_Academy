@@ -1,7 +1,11 @@
-const age = 6;
+const age = 19;
+const isFemale = true;
+const driverStatus = true;
+const totalAmount = 100;
+let firstName = Sean;
 
-if (age >= 18) {
-    document.write("WELCOME")
+if (age >= 18 && isFemale && driverStatus) {
+    document.write("WELCOME ")
     console.log("ACCESS GRANTED")
 } else {
     document.write("GET OUT ")
@@ -9,16 +13,36 @@ if (age >= 18) {
     console.log("ACCESS DENIED")
 }
 
-const isFemale = true;
+
 
 if (isFemale) {
-    document.write("Hello Lady ")
+    document.write(" Lady ")
 }
 
-const driverStatus = "bob";
+
 
 if (driverStatus) {
-    document.write("You may leave")
+    document.write("You may leave ")
 } else{
     document.write("CALL A CAB! ")
+}
+
+if (age >= 18 && age <= 25 ){
+    document.write("KORTING ")
+} else {
+    document.write("Ouwe flikker ")
+}
+
+if (firstName === Bram || Sarah){
+    document.write("GRATIS BIER!! ")
+} else {
+    document.write("Verander je naam voor gratis bier! ")
+}
+
+if (totalAmount >= 25) {
+    document.write( "Gratis bittergarnituurtje")
+} else if (totalAmount >= 50) {
+    document.write( "Gratis Nachosssss")
+} else if (totalAmount >= 100) {
+    document.write( "Champagne!")
 }
