@@ -1,6 +1,24 @@
-console.log("HELLO WORLD") 
-// dit is een grote som
-1230941 * 1823794
+const age = 6;
 
-// dit is een kleine som
-637263 / 54)
+if (age >= 18) {
+    document.write("WELCOME")
+    console.log("ACCESS GRANTED")
+} else {
+    document.write("GET OUT ")
+    alert("FORBIDDEN!!")
+    console.log("ACCESS DENIED")
+}
+
+const isFemale = true;
+
+if (isFemale) {
+    document.write("Hello Lady ")
+}
+
+const driverStatus = "bob";
+
+if (driverStatus) {
+    document.write("You may leave")
+} else{
+    document.write("CALL A CAB! ")
+}
