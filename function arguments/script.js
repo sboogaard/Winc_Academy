@@ -1,5 +1,5 @@
 const wall = function (side, color) {
-    document.write("The " + side "has been painted " + color)
+    document.write("The " + side + " has been painted " + color)
 }
 
 wall("front-wall", "red");
