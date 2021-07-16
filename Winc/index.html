@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news" onclick="color(this)" class="color clr1">News</a>
+    <a href="#contact" onclick="color(this)" class="color clr2">Contact</a>
+    <a href="#about" onclick="color(this)" class="color clr3">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="hero-section">
+<div class="container">
+  <span id='1' onclick="color(this)" class="color clr1"></span>
+  <span id='2' onclick="color(this)" class="color clr2"></span>
+  <span onclick="color(this)" class="color clr3"></span>
+  <span onclick="color(this)" class="color clr4"></span>
+</div>
+</div>
+</body>
+<script src="scripts.js"></script>
+</html>
+
